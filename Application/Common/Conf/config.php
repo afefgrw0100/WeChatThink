@@ -6,7 +6,7 @@ return array(
 	'URL_MODEL'					=> 0,  
 
 	//有关微信配置
-	'WECHAT_URL'				=> '',
+	'WECHAT_URL'				=> 'http://120.25.230.122/WeChatThink/?m=Home&c=Validate&a=validate',
 	'WECHAT_TOKEN'				=> 'gamelifewechat',
 	'ENCODING_AES_KEY'			=> 'FzIi8KK8NMDfklSosaUczoCfkb5FWLUMvckKNFMQQTU',
 	'WECHAT_APPID'				=> 'wxfbd63294bde0e411',
