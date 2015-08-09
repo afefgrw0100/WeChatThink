@@ -17,8 +17,8 @@ class ValidateController extends Controller
 	public function validate() {
 
 		// echo WECHAT_TOKEN;
-		
-		$wechat = new Wechat(C('WECHAT_TOKEN'), true);
+
+		$wechat = new WeChat(WECHAT_TOKEN, true);
 
 		$wechat->checkSignature();
 	}
