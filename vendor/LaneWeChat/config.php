@@ -16,7 +16,7 @@ define('LANEWECHAT_VERSION_DATE', '2014-11-05');
 /*
  * 服务器配置，详情请参考@link http://mp.weixin.qq.com/wiki/index.php?title=接入指南
  */
-define("WECHAT_URL", 'http://120.25.230.122/WeChatThink/?m=Home&c=Validate&a=validate');
+define("WECHAT_URL", 'http://120.25.230.122/WeChatThink/index.php/Home/Validate/validate');
 define('WECHAT_TOKEN', 'gamelifewechat');
 define('ENCODING_AES_KEY', "FzIi8KK8NMDfklSosaUczoCfkb5FWLUMvckKNFMQQTU");
 

@@ -4,7 +4,7 @@
  * 
  * author: Gamelife;
  * 
- * description: 主要用于服务器接入验证;
+ * description: 用于服务器接入验证和请求转发;
  * 
  */
 namespace Home\Controller;
@@ -15,10 +15,9 @@ use LaneWeChat\Core\Wechat;
 class ValidateController extends Controller 
 {
 	public function validate() {
-
+		
 		$wechat = new Wechat(C('WECHAT_TOKEN'), true);
 
 		$wechat->checkSignature();
-
 	}
 }
