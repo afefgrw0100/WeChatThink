@@ -23,6 +23,17 @@ define('APP_PATH','./Application/');
 //包含微信开发框架
 include './vendor/LaneWeChat/lanewechat.php';
 
+define("WECHAT_URL", 'http://120.25.230.122/WeChatThink/index.php/Home/Validate/validate');
+define('WECHAT_TOKEN', 'gamelifewechat');
+define('ENCODING_AES_KEY', "FzIi8KK8NMDfklSosaUczoCfkb5FWLUMvckKNFMQQTU");
+
+/*
+ * 开发者配置
+ */
+define("WECHAT_APPID", 'wxfbd63294bde0e411');
+define("WECHAT_APPSECRET", 'ed8b5b18a7efb8bb53dca5b26789b96c');
+
+
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 

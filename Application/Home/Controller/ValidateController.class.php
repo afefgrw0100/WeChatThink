@@ -15,6 +15,8 @@ use LaneWeChat\Core\Wechat;
 class ValidateController extends Controller 
 {
 	public function validate() {
+
+		// echo WECHAT_TOKEN;
 		
 		$wechat = new Wechat(C('WECHAT_TOKEN'), true);
 

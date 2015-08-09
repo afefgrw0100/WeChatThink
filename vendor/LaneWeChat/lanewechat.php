@@ -2,8 +2,8 @@
 
 namespace LaneWeChat;
 
-//引入配置文件
-include __DIR__ .  './config.php';
+// //引入配置文件
+// include_once __DIR__.'/config.php';
 
 //引入自动载入函数
 include_once __DIR__.'/autoloader.php';
