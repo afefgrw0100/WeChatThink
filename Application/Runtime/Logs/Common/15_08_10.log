@@ -1,0 +1,30 @@
+[ 2015-08-10T05:56:16+08:00 ] ::1 /WeChatThink/index.php?m=Validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000622s ]
+INFO: [ app_init ] --END-- [ RunTime:0.079274s ]
+ERR: 无法加载模块:Validate
+
+[ 2015-08-10T05:57:39+08:00 ] ::1 /WeChatThink/index.php?m=Validate&c=validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000275s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002114s ]
+ERR: 无法加载模块:Validate
+
+[ 2015-08-10T05:57:47+08:00 ] ::1 /WeChatThink/?m=Validate&c=validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+ERR: 无法加载模块:Validate
+
+[ 2015-08-10T05:58:40+08:00 ] ::1 /WeChatThink/?m=Validate&c=validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000366s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003451s ]
+ERR: 无法加载模块:Validate
+
+[ 2015-08-10T05:59:44+08:00 ] ::1 /WeChatThink/index.php/Validate/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+ERR: 无法加载模块:Validate
+

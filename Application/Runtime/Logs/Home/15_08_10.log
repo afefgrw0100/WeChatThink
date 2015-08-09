@@ -1,0 +1,73 @@
+[ 2015-08-10T05:59:32+08:00 ] ::1 /WeChatThink/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022423s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-08-10T06:00:04+08:00 ] ::1 /WeChatThink/index.php/Home/Validate/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+
+[ 2015-08-10T06:00:18+08:00 ] ::1 /WeChatThink/index.php/Home/Validate/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022764s ]
+
+[ 2015-08-10T06:00:39+08:00 ] ::1 /WeChatThink/index.php/Home/Validate/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000315s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 39 行.
+NOTIC: [8] Undefined index: signature D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 93 行.
+NOTIC: [8] Undefined index: timestamp D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 94 行.
+NOTIC: [8] Undefined index: nonce D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001854s ]
+
+[ 2015-08-10T06:00:42+08:00 ] ::1 /WeChatThink/index.php/Home/Validate/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 39 行.
+NOTIC: [8] Undefined index: signature D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 93 行.
+NOTIC: [8] Undefined index: timestamp D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 94 行.
+NOTIC: [8] Undefined index: nonce D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2015-08-10T06:02:28+08:00 ] ::1 /WeChatThink/?m=Home&c=Validate&a=validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003495s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 39 行.
+NOTIC: [8] Undefined index: signature D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 93 行.
+NOTIC: [8] Undefined index: timestamp D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 94 行.
+NOTIC: [8] Undefined index: nonce D:\WWW\WeChatThink\vendor\LaneWeChat\core\wechat.lib.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002232s ]
+
