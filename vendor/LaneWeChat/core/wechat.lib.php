@@ -94,6 +94,11 @@ class Wechat{
         $timestamp = $_GET["timestamp"];
         $nonce = $_GET["nonce"];
 
+        // you must define TOKEN by yourself
+        if (!defined("WECHAT_TOKEN")) {
+            throw new Exception('TOKEN is not defined!');
+        }
+        
         $token = WECHAT_TOKEN;
         $tmpArr = array($token, $timestamp, $nonce);
         sort($tmpArr, SORT_STRING);
