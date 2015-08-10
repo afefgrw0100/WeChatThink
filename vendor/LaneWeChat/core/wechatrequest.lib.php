@@ -132,7 +132,7 @@ class WechatRequest{
      * @return array
      */
     public static function text(&$request){
-        $content = '收到文本消息';
+        $content = '收到文本消息,我是游戏人生';
         return ResponsePassive::text($request['fromusername'], $request['tousername'], $content);
     }
 
@@ -207,7 +207,7 @@ class WechatRequest{
      * @return array
      */
     public static function eventSubscribe(&$request){
-        $content = '欢迎您关注我们的微信，将为您竭诚服务';
+        $content = '欢迎您关注我们的微信，将为您竭诚服务，你好，游戏人生';
         return ResponsePassive::text($request['fromusername'], $request['tousername'], $content);
     }
 

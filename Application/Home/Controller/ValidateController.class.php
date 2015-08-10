@@ -23,22 +23,6 @@ class ValidateController extends Controller
 
 		//$wechat->checkSignature();
 		
-		$request	= $wechat->getRequest();
-
-		//请求分发
-		
-		$data		= array();
-
-		switch ($request['msgtype']) {
-			case 'text':
-						$data = $this->$handle_text($request);
-		}
-
-		return $data;	
-	}
-
-	public function handle_text(&$request) {
-		$content = '这是游戏人生通过自定义开发的服务器，正在测试。。。。';
-		return ResponsePassive::text($request['fromusername'], $request['tousername'], $content);
+		$wechat->run();	
 	}
 }
