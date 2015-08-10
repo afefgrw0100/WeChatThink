@@ -21,8 +21,8 @@ class ValidateController extends Controller
 
 		$wechat 	= new WeChat(WECHAT_TOKEN, true);
 
-		$wechat->checkSignature();
+		//$wechat->checkSignature();
 		
-		//$wechat->run();	
+		$wechat->run();	
 	}
 }
